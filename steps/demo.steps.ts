@@ -33,3 +33,9 @@ Then('Verify url should contain {string}', async ({page},urlcont:string) => {
   // From: features\demo.feature:7:9
   expect(page).toHaveURL(/urlcont/)
 });
+
+Then('Verify url should contain {string}', async ({page},urlcont:string) => {
+  // Step: Then Verify url should contain 'inventory.html'
+  // From: features\demo.feature:7:9
+  expect(page).toHaveURL(/urlcont/)
+});
